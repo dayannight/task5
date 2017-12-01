@@ -1,0 +1,144 @@
+html{
+    font-size: 625%;
+    margin:0 ;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+p,ul{
+    margin: 0;
+}
+header{
+    font-size: 0.2rem;
+    color: white;
+    background-color: #5fc0cd;
+    display: flex;
+    align-items: center;
+    height: 0.5rem;
+    justify-content: space-between;
+    padding: 0 0.1rem;
+}
+.header-p-2{
+    color:#5fc0cd;
+    user-select: none;
+}
+.header-a{
+    color: inherit;
+    text-decoration: none;
+}
+main{
+    font-size: 0.1rem;
+
+}
+.user-select{
+    background: url("img/user.png") no-repeat center;
+    background-size: cover;
+    height: 1.63rem;
+
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+
+
+
+
+
+
+.user-img-head{
+    width: 0.8rem;
+    margin-left: 0.2rem;
+}
+.user-select-text{
+    margin: 0 0.3rem;
+}
+.user-information-title{
+    border-bottom: solid 1px #cccccc;
+}
+.user-information p{
+    border-left: #5fc0cd 3px solid;
+    line-height: 0.2rem;
+    margin: 0.15rem 0.1rem;
+    padding-left: 0.05rem;
+    font-size: 0.15rem;
+}
+ul{
+    list-style: none;
+    padding:0 0.15rem;
+
+}
+li{
+    border-bottom: solid 1px #cccccc;
+    min-height: 0.4rem;
+    display: flex;
+    align-items: center;
+    padding: 0.1rem 0;
+
+}
+.li-1{
+    margin-left: 0.1rem;
+}
+
+
+
+
+
+.img-star{
+
+    width: 0.15rem;
+
+}
+.li-left{
+    color: #cccccc;
+    margin: 0 0.1rem;
+    min-width: 0.6rem;
+    border-right:1px solid #cccccc ;
+    padding-right: 0.1rem;
+}
+.li-2{
+
+    padding-left: 0.1rem;
+
+}
+span{
+    color: red;
+}
+footer{
+    display:flex;
+    width: 100%;
+    background: white;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+
+
+
+
+}
+button{
+    height: 0.45rem;
+    width: 45%;
+    border-radius: 0.1rem;
+    margin: 0.1rem 0.05rem;
+    font-size: 0.15rem;
+    border: solid 2px #5fc0cd;
+}
+
+.bt-2{
+    background: #5fc0cd;
+    color: white;
+}
+.bt-1{
+    background: #ffffff;
+    color: #5fc0cd;
+}
+
+
+
+
+
