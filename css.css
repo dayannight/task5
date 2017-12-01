@@ -127,6 +127,13 @@ button{
     margin: 0.1rem 0.05rem;
     font-size: 0.15rem;
     border: solid 2px #5fc0cd;
+    outline: none;
+    transform-style:;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    color: aqua;
 }
 
 .bt-2{
